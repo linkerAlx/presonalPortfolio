@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaInstagram, FaLinkedin } from "react-icons/fa"
 
 const Contact = () => {
   return (
-    <div className="w-full flex flex-col items-center mt-20">
+    <div className="w-full flex flex-col items-center ">
 
       {/* Heading */}
       <div className="flex items-center justify-center mb-6">

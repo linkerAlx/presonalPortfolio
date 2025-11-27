@@ -159,28 +159,26 @@ export const cardData = [
 ];
 export const blogsdata = [
   {
-    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
-    title: "WEB Development",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
+    image: { src: "/assets/photos/women.jpg" },
+    title: "Women in Tech & Digital Innovation",
+    description: "Showcasing how women in digital solutions can drive innovation, creativity, and tech excellence.",
+  },
+ 
+  {
+    image: { src: "/assets/photos/support1.jpg" },
+    title: "IT Support in Real Life",
+    description: "Tips and strategies for troubleshooting, maintaining IT systems, and supporting businesses efficiently.",
+  },
+  {
+    image: { src: "/assets/photos/support.jpg" },
+    title: "Digital Solutions for Modern Businesses",
+    description: "Implementing digital tools and solutions to improve business productivity and online presence.",
+  },
   
-  },
-  {
-    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
-    title: "WEB Development",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
-    
-  },
-  {
-    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
-    title: "WEB Development",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
-   
-  },
-    {
-    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
-    title: "WEB Development",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
-   
+   {
+    image: { src: "/assets/photos/dev.jpg" },
+    title: "Mastering Web Development",
+    description: "Practical guide on building responsive and dynamic websites using HTML, CSS, JavaScript, and React.",
   },
 ];
 
