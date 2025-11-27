@@ -8,9 +8,10 @@ const Navbar = ({ nightMode, setNightMode }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 z-[40] w-full h-[60px] flex items-center justify-center px-5 md:px-20 shadow-md">
+    <div className={`fixed top-0 z-[40] w-full h-[60px] flex items-center justify-center px-5 md:px-20 shadow-md
+      ${nightMode ? "bg-[#0f172a] text-white" : "bg-white text-black"}`}>
 
-      {/* Container – centers everything */}
+      {/* Wrapper */}
       <div className="w-full max-w-[1200px] flex items-center justify-between">
 
         {/* Logo */}
@@ -18,25 +19,30 @@ const Navbar = ({ nightMode, setNightMode }) => {
           linker<span className='text-[#1A4A83]'>_arlene</span>
         </h1>
 
-        {/* Desktop Menu Centered*/}
+        {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 items-center">
           {Socials.map((social, index) => (
-            <NavLink key={index} to={social.path} className="font-bold hover:text-[#1A4A83]">
+            <NavLink
+              key={index}
+              to={social.path}
+              className={`font-bold hover:text-[#1A4A83] duration-200
+                ${nightMode ? "text-white" : "text-black"}`}
+            >
               {social.name}
             </NavLink>
           ))}
         </div>
 
-        {/* Icons Section */}
-        <div className="flex items-center mr-6 ">
+        {/* Icons */}
+        <div className="flex items-center gap-4 mr-6 text-xl">
 
-          {/* Dark / Light Mode */}
-          <div className="cursor-pointer text-xl" onClick={() => setNightMode(!nightMode)}>
+          {/* Dark/Light Switch */}
+          <div onClick={() => setNightMode(!nightMode)} className="cursor-pointer">
             {nightMode ? <MdLightMode /> : <MdDarkMode />}
           </div>
 
-          {/* Mobile menu toggle */}
-          <button className="md:hidden text-xl" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          {/* Mobile Menu Button */}
+          <button className="md:hidden text-2xl" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <FaTimes /> : <FaBars />}
           </button>
 
@@ -45,16 +51,20 @@ const Navbar = ({ nightMode, setNightMode }) => {
 
       {/* Mobile Dropdown */}
       {isMenuOpen && (
-        <div className="absolute top-[60px] left-0 w-full bg-white p-5 shadow-md md:hidden">
-          <ul className="flex flex-col gap-4 text-center">
-            {Socials.map((social, index) => (
-              <li key={index}>
-                <NavLink to={social.path} onClick={() => setIsMenuOpen(false)}>
-                  {social.name}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
+        <div
+          className={`absolute top-[60px] left-0 w-full p-5 shadow-md md:hidden flex flex-col items-center gap-4
+          ${nightMode ? "bg-[#0f172a] text-white" : "bg-white text-black"}`}
+        >
+          {Socials.map((social, index) => (
+            <NavLink
+              key={index}
+              to={social.path}
+              onClick={() => setIsMenuOpen(false)}
+              className="text-lg font-semibold hover:text-[#1A4A83] duration-200"
+            >
+              {social.name}
+            </NavLink>
+          ))}
         </div>
       )}
     </div>
