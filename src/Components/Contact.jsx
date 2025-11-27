@@ -35,7 +35,7 @@ const Contact = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-3"><FaPhoneAlt /> <span>+250 783 653 531</span></div>
               <div className="flex items-center gap-3"><FaEnvelope /> <span>inezalinkera@gmail.com</span></div>
-              <div className="flex items-center gap-3"><FaInstagram /> <span>@linker_arlene</span></div>
+              <div className="flex items-center gap-3"><FaInstagram /> <span>linker_arlene</span></div>
               <div className="flex items-center gap-3"><FaLinkedin /> <span>Ineza Linker Arlene</span></div>
             </div>
           </div>
