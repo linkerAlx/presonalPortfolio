@@ -4,7 +4,7 @@ import About from "../Components/About";
 const Aboutpg = () => {
   return (
     <div>
-           <main className="">
+           <main>
         <About/>
       </main>
     </div>

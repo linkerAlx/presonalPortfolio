@@ -4,6 +4,7 @@ import Services from "../Components/Services";
 import Portfolio from "../Components/Portfolio";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
+import Blogs from "./Blogs";
 
 const Landingpg = () => {
   return (
@@ -11,7 +12,7 @@ const Landingpg = () => {
       <main className="w-full h-full flex flex-col  ">
         {/* Header Section */}
         <div className="flex items-center justify-center p-5 mt-12">
-          <div className="bg-[#5F8184] w-24 h-2"></div>
+          <div className="bg-[#1A4A83]  w-24 h-2"></div>
           <p className="font-bold ml-4 text-center lg:text-left text-sm md:text-base lg:text-lg">
             Shaping the Future of Digital Interaction with Creativity.
           </p>
@@ -24,11 +25,11 @@ const Landingpg = () => {
             <p className="font-bold text-lg md:text-xl lg:text-2xl ">
               INEZA LINKER Arlene
             </p>
-            <p className="text-sm font-bold md:text-base lg:ml-18 bg-gradient-to-br from-black to-[#5F8184] bg-clip-text text-transparent">
+            <p className="text-sm font-bold md:text-base lg:ml-18 ">
                 IT Specialist 
             </p>
             <p className="text-center lg:ml-28 font-bold">&</p>
-            <p className="text-sm font-bold md:text-base lg:ml-10 bg-gradient-to-br from-black to-[#5F8184] bg-clip-text text-transparent">
+            <p className="text-sm font-bold md:text-base lg:ml-10 ">
          Software Developer
             </p>
           </div>
@@ -36,16 +37,16 @@ const Landingpg = () => {
           {/* Image Section */}
           <div>
             <img
-              src="/assets/photos/Linker.jpg"
+              src="/assets/photos/image.png"
               alt="Profile Pic"
-              className="rounded-full border-4 border-gray-300 w-36 h-36 object-cover"
+              className=" w-60 h-60 object-cover"
               width={100}
               height={100}
             />
           </div>
 
           {/* Button Section */}
-          <button className="bg-[#5F8184] text-white px-6 py-3 font-bold rounded shadow-lg hover:bg-[#47696a] transition-transform transform hover:scale-105">
+          <button className="bg-[#1A4A83]  text-white px-6 py-3 font-bold rounded shadow-lg hover:bg-[#2564b1] transition-transform transform hover:scale-105">
             HIRE ME!
           </button>
         </div>
@@ -61,6 +62,10 @@ const Landingpg = () => {
           <div className="-mt-5">
             <Portfolio />
           </div>
+          <div className="-mt-5">
+            <Blogs />
+          </div>
+
           <div className="-mt-12">
             <Contact />
           </div>

@@ -25,7 +25,7 @@ const Footer = () => {
             href="https://linkedin.com/in/ineza-linker-arlene"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[#5F8184] transition"
+            className="hover:text-[#1A4A83] transition"
           >
             <FaLinkedin />
           </a>
@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
 
       {/* line */}
-      <div className="mt-4 mx-auto w-24 h-1 bg-[#5F8184] rounded-full"></div>
+      <div className="mt-4 mx-auto w-24 h-1 bg-[#1A4A83]  rounded-full"></div>
     </footer>
   );
 };

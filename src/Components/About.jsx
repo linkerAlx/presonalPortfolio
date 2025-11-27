@@ -3,10 +3,10 @@ import { aboutDetails, slides } from "../Constants";
 
 const About= () => {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center mt-14 bg-white ">
+    <div className="w-full h-full flex flex-col items-center justify-center mt-14  ">
       {/* Heading */}
       <div className="flex items-center justify-center mb-5">
-        <div className="bg-[#5F8184] w-12 h-1"></div>
+        <div className="bg-[#1A4A83]  w-12 h-1"></div>
         <p className="font-bold ml-4 text-center lg:text-left text-sm md:text-base lg:text-lg">
           About Me
         </p>
@@ -46,7 +46,7 @@ const About= () => {
      {/* View cv Button */}
       
      <div className="flex justify-center mt-14">
-     <a href="/assets/CV.pdf" download="ineza_linker_CV.pdf" className="px-6 py-2 text-white bg-[#5F8184] rounded-full hover:bg-[#486364] transition-colors">
+     <a href="/assets/CV.pdf" download="ineza_linker_CV.pdf" className="px-6 py-2 text-white bg-[#1A4A83] rounded-full hover:bg-[#486364] transition-colors">
   Download CV
 </a>
 
@@ -55,9 +55,9 @@ const About= () => {
 
     {/* Decoration lines */}
     <div className="flex justify-center items-center mt-16 gap-10">
-      <div className="w-24 md:w-36 h-2 rounded-3xl bg-[#5F8184]"></div>
-      <div className="w-2 h-2 rounded-full bg-[#5F8184]"></div>
-      <div className="w-24 md:w-36 h-2 rounded-3xl bg-[#5F8184]"></div>
+      <div className="w-24 md:w-36 h-2 rounded-3xl bg-[#1A4A83] "></div>
+      <div className="w-2 h-2 rounded-full bg-[#1A4A83] "></div>
+      <div className="w-24 md:w-36 h-2 rounded-3xl bg-[#1A4A83] "></div>
     </div>
   </div>
 </div>

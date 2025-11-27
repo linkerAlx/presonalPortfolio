@@ -5,8 +5,8 @@ const Services  = () => {
     <div className='w-full h-full flex flex-col items-center justify-center mt-14 '>
      {/* Heading */}
      <div className="flex items-center justify-center mb-5">
-        <div className="bg-[#5F8184] w-12 h-1"></div>
-        <p className="font-bold ml-4 text-center lg:text-left text-sm md:text-base lg:text-lg">
+        <div className="bg-[#1A4A83] w-12 h-1"></div>
+        <p className="font-bold ml-4 text-center  lg:text-left text-sm md:text-base lg:text-lg">
           Services
         </p>
       </div>
@@ -15,7 +15,7 @@ const Services  = () => {
       {services.map((service, index) => (
         <div
           key={index}
-          className="flex flex-col items-center border-l-8 border-[#5F8184] rounded-lg p-4 w-full md:w-1/3"
+          className="flex flex-col items-center border-l-8 border-[#1A4A83] rounded-lg p-4 w-full md:w-1/3"
         >
           {/* Service Photo */}
           <img
@@ -24,9 +24,9 @@ const Services  = () => {
             className="rounded-full w-24 h-24 mb-4"
           />
           {/* Service Name */}
-          <h3 className="text-lg font-bold text-gray-700">{service.name}</h3>
+          <h3 className="text-lg font-bold ">{service.name}</h3>
           {/* Service Description */}
-          <p className="text-sm text-gray-600 mt-2 text-center">
+          <p className="text-sm  mt-2 text-center">
             {service.description}
           </p>
           

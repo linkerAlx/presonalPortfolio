@@ -21,6 +21,11 @@ export const Socials = [
     
   },
   {
+    name: "BLOG", path: "/Blogspg"
+    
+  },
+
+  {
     name: "CONTACT-ME", path: "/Contactpg"
     
   },
@@ -62,8 +67,23 @@ export const skills = [
     rating: 4,
   },
   {
-    name: "Microsoft project",
+    name: "Microsoft project/jira/Agile",
     description: "A project management software used for planning, scheduling, and tracking progress.",
+    rating: 4,
+  },
+   {
+    name: "Helpdesk & Communication",
+    description: "Using ticketing tools like Jira, Freshservice, and providing end-user support.",
+    rating: 5,
+  },
+   {
+    name: "Windows & macOS Support",
+    description: "Troubleshooting and maintaining PCs, laptops, and macOS systems.",
+    rating: 5,
+  },
+  {
+    name: "Networking",
+    description: "Configuring LAN/WAN, Wi-Fi, DHCP, DNS, and resolving connectivity issues.",
     rating: 4,
   },
 ];
@@ -95,33 +115,39 @@ export const services = [
 
 export const cardData = [
   {
-    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
-    title: "WEB Development",
+    image: { src: "/assets/photos/smartlink.jpeg" },  // <-- starts with /
+    title: "E-Commerce Frontend",
+    description: "Shaping the Future of Digital Interaction with Creativity.",
+    liveProject: "https://smartlink-stationary.vercel.app/",
+  },
+  {
+    image: { src: "/assets/photos/portfolio.jpeg" },  // <-- starts with /
+    title: "Personal porfolio",
+    description: "Shaping the Future of Digital Interaction with Creativity.",
+    liveProject: "https://presonal-portfolio-zeta.vercel.app/",
+  },
+  {
+    image: { src: "/assets/photos/portfolio.jpeg" },  // <-- starts with /
+    title: "Personal porfolio ui/ux design",
+    description: "Shaping the Future of Digital Interaction with Creativity.",
+    liveProject: "https://www.figma.com/proto/CwzQ8IC4uRQwuwGrhwO0jd/linker-portfolio?node-id=6-2&starting-point-node-id=6%3A2&scaling=contain&content-scaling=fixed",
+  },
+  {
+    image: { src: "/assets/photos/dashboard.jpeg" },  // <-- starts with /
+    title: "Admin dashboard",
     description: "Shaping the Future of Digital Interaction with Creativity.",
     liveProject: "https://my-portfolio-smoky-ten-51.vercel.app",
   },
   {
-    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
-    title: "WEB Development",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
+    image: { src: "/assets/photos/client.jpeg" },  // <-- starts with /
+    title: "saving management system",
+    description: "client page for saving management system",
     liveProject: "https://my-portfolio-smoky-ten-51.vercel.app",
   },
   {
-    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
-    title: "WEB Development",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
-    liveProject: "https://my-portfolio-smoky-ten-51.vercel.app",
-  },
-  {
-    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
-    title: "WEB Development",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
-    liveProject: "https://my-portfolio-smoky-ten-51.vercel.app",
-  },
-  {
-    image: { src: "/assets/photos/pic1.jpg" },
-    title: "UI/UX Design",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
+    image: { src: "/assets/photos/admin.jpeg" },
+    title: "saving management system",
+    description: "Admin page for saving management system",
     liveProject: "https://www.figma.com/design/CwzQ8IC4uRQwuwGrhwO0jd/linker-portfolio?node-id=6-2",
   },
   {
@@ -131,7 +157,32 @@ export const cardData = [
     liveProject: "https://drive.google.com/drive/folders/15SX7xtZFQ6m3RCMqaWpggLeHdBCPbxxN?usp=drive_link",
   },
 ];
-
+export const blogsdata = [
+  {
+    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
+    title: "WEB Development",
+    description: "Shaping the Future of Digital Interaction with Creativity.",
+  
+  },
+  {
+    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
+    title: "WEB Development",
+    description: "Shaping the Future of Digital Interaction with Creativity.",
+    
+  },
+  {
+    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
+    title: "WEB Development",
+    description: "Shaping the Future of Digital Interaction with Creativity.",
+   
+  },
+    {
+    image: { src: "/assets/photos/pic1.jpg" },  // <-- starts with /
+    title: "WEB Development",
+    description: "Shaping the Future of Digital Interaction with Creativity.",
+   
+  },
+];
 
 
 
