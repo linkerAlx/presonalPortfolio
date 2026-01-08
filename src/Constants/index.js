@@ -140,9 +140,9 @@ export const cardData = [
   },
   {
     image: { src: "/assets/photos/client.jpeg" },  // <-- starts with /
-    title: "saving management system",
-    description: "client page for saving management system",
-    liveProject: "https://my-portfolio-smoky-ten-51.vercel.app",
+    title: "finace tracker",
+    description: "client page for finance tracker system",
+    liveProject: "https://financetracker-ruddy-two.vercel.app/",
   },
   {
     image: { src: "/assets/photos/admin.jpeg" },
