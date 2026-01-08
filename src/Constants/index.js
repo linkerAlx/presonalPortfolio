@@ -133,17 +133,18 @@ export const cardData = [
     liveProject: "https://www.figma.com/proto/CwzQ8IC4uRQwuwGrhwO0jd/linker-portfolio?node-id=6-2&starting-point-node-id=6%3A2&scaling=contain&content-scaling=fixed",
   },
   {
-    image: { src: "/assets/photos/dashboard.jpeg" },  // <-- starts with /
-    title: "Admin dashboard",
-    description: "Shaping the Future of Digital Interaction with Creativity.",
-    liveProject: "https://my-portfolio-smoky-ten-51.vercel.app",
-  },
-  {
     image: { src: "/assets/photos/client.jpeg" },  // <-- starts with /
     title: "finace tracker",
     description: "client page for finance tracker system",
     liveProject: "https://financetracker-ruddy-two.vercel.app/",
   },
+  {
+    image: { src: "/assets/photos/dashboard.jpeg" },  // <-- starts with /
+    title: "Admin dashboard",
+    description: "Shaping the Future of Digital Interaction with Creativity.",
+    liveProject: "https://my-portfolio-smoky-ten-51.vercel.app",
+  },
+  
   {
     image: { src: "/assets/photos/admin.jpeg" },
     title: "saving management system",
