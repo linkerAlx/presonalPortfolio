@@ -36,9 +36,9 @@ export const slides = [
 ];
 export const aboutDetails = [
   { label: "Name", value: "INEZA LINKER Arlene" },
-  { label: "Age", value: "22" }, 
+  { label: "Age", value: "23" }, 
   { label: "Email", value: "inezalinkera@gmail.com" },
-  { label: "Address", value: "Muhanga, Rwanda" },
+  { label: "Address", value: " Rwanda" },
 ];
 export const skills = [
   {
@@ -101,7 +101,7 @@ export const services = [
   },
   {
     photo: "https://images.pexels.com/photos/8062365/pexels-photo-8062365.jpeg",
-    name: " IT Project Management",
+    name: " IT Project Management/Project Management",
     description: "Managing projects for efficient execution and impactful outcomes.",
   },
  {
@@ -142,15 +142,10 @@ export const cardData = [
     image: { src: "/assets/photos/dashboard.jpeg" },  // <-- starts with /
     title: "Admin dashboard",
     description: "Shaping the Future of Digital Interaction with Creativity.",
-    liveProject: "https://my-portfolio-smoky-ten-51.vercel.app",
+    liveProject: "https://admin-dashboard-lime-pi-45.vercel.app/",
   },
   
-  {
-    image: { src: "/assets/photos/admin.jpeg" },
-    title: "saving management system",
-    description: "Admin page for saving management system",
-    liveProject: "https://www.figma.com/design/CwzQ8IC4uRQwuwGrhwO0jd/linker-portfolio?node-id=6-2",
-  },
+ 
   {
     image: { src: "/assets/photos/pic1.jpg" },
     title: "Scheduled Project",

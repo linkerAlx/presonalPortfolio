@@ -32,7 +32,7 @@ const Landingpg = () => {
             <p className="font-bold text-lg sm:text-xl md:text-2xl">INEZA LINKER Arlene</p>
             <p className="text-xs sm:text-sm md:text-base font-bold">IT Specialist</p>
             <p className="font-bold">&</p>
-            <p className="text-xs sm:text-sm md:text-base font-bold">Software Developer</p>
+            <p className="text-xs sm:text-sm md:text-base font-bold">Software Developer/Project Management</p>
           </div>
 
           <img
