@@ -194,7 +194,7 @@ export const footerConstants = {
       { label: "Location:", value: "Muhanga, Rwanda" },
     ],
   },
-  copyright: "© 2025 Ineza Linker Arlene. All Rights Reserved.",
+  copyright: "© 2026 Ineza Linker Arlene. All Rights Reserved.",
 };
 
 export default footerConstants;
